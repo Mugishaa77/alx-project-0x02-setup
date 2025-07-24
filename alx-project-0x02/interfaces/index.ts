@@ -28,3 +28,12 @@ export interface ApiPost {
   title: string;
   body: string;
 }
+
+export interface UserProps {
+  name: string;
+  email: string;
+  address: {
+    street: string;
+    city: string;
+  };
+}
